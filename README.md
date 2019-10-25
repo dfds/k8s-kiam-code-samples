@@ -1,7 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 ## Introduction
 
 This repository is not intended to be looked at by itself, but rather as a whole with its accompanying Playbook, *Pod access to AWS resources (Kiam)*, which can be found on the DFDS Playbooks site.
