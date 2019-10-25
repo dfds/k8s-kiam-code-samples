@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  labels:
+    name: kiam-python
+  name: kiam-python
+spec:
+  template:
+    metadata:
+      annotations:
+        iam.amazonaws.com/role: arn:aws:iam::090185641622:role/s3_kiam_test
+      labels:
+        name: kiam-python
+    spec:
+      containers:
+      - image: 090185641622.dkr.ecr.eu-central-1.amazonaws.com/emcla/kiam-python:latest
+        imagePullPolicy: Always
+        name: kiam-python
+      restartPolicy: Never

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>csharp-kiam_upload_to_s3</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>csharp-kiam_upload_to_s3</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.3.103.44" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.104.32" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="3.3.102.29" />
+  </ItemGroup>
+
+</Project>
