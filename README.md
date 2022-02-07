@@ -1,3 +1,12 @@
+# ⚠️ Repository not maintained ⚠️
+
+Please note that this repository is currently archived, and is no longer being maintained.
+
+- It may contain code, or reference dependencies, with known vulnerabilities
+- It may contain out-dated advice, how-to's or other forms of documentation
+
+The contents might still serve as a source of inspiration, but please review any contents before reusing elsewhere.
+
 ## Introduction
 
 This repository is not intended to be looked at by itself, but rather as a whole with its accompanying Playbook, *Pod access to AWS resources (Kiam)*, which can be found on the DFDS Playbooks site.
